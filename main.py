@@ -6,7 +6,8 @@ Organization: UNIR
 import os
 import sys
 
-
+DEFAULT_FILENAME = "words.txt"
+DEFAULT_DUPLICATES = False
 
 
 def sort_list(items, ascending=True):
